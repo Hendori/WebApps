@@ -1,0 +1,55 @@
+/*** Generiek ***/
+
+body {
+  background-color: black;
+}
+#pagetitle {
+  padding: 0.25em;
+  text-align: center;
+  font-size: 2em;
+  border: thin solid #888;
+  border-radius: 0.25em;
+}
+
+/*** Hoofdstructuur ***/
+
+.page {
+  width: 30em;
+  margin: 2em auto;
+  background-color: Ivory;
+  padding: 1em;
+  box-shadow: 3px 3px 5px #888;
+  border-radius: 0.25em;
+}
+label{
+  display: block;
+  width: 20em; 
+  margin-bottom: 0.5em;
+  text-align: right;
+}
+
+/*** Formulier ***/
+input {
+  margin-left : 2em;
+}
+fieldset {
+  margin-top: 1em;
+	padding: 1em;
+  box-shadow: 3px 3px 5px #888;
+	border-radius: 0.25em;
+  background : #F5F5DC;
+}
+legend {
+  font-weight: bold;
+  background-color: Ivory;
+  padding: 0.2em;
+  box-shadow: 3px 3px 5px #888;
+  border-radius: 0.25em;
+}
+input[type="submit"] {
+  background: linear-gradient(to bottom, #B0B0B0, #F0F0F0 );
+  border-radius: 0.75em;
+}
+input:hover[type="submit"] {
+  background: #DEB887;
+}

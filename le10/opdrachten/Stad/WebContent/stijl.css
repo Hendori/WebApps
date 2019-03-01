@@ -1,0 +1,8 @@
+datalist {
+	display: block;
+}
+datalist option {
+	width : 20em;
+	font-size: 1em;
+	margin-left: 5em;
+}

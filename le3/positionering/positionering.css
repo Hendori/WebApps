@@ -1,0 +1,25 @@
+div {
+ width : 10em;
+ height : 4em;
+ padding: 4em;
+ border:  thin solid #EF001D;
+ margin: auto;
+}
+
+span {
+  padding : 1em;
+  border : thin solid #EF001D;
+}
+
+#id1 {
+ background-color: yellow;
+
+}
+
+#id2 {
+ background-color: blue;
+}
+
+#id3 {
+ background-color: red;
+}

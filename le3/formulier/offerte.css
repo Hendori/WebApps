@@ -1,0 +1,20 @@
+body {
+    color: #333;
+    background-color: #666666;
+}
+fieldset {
+    color: #222;
+    background-color: #222222;
+}
+legend {
+    background-color: transparent;
+}
+optgroup {
+    color: #cccccc;
+}
+input {
+    background-color: #EF001D;
+}
+input[type="date"] {
+    background-color: blue;
+}

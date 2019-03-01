@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+  <html lang="NL">
+    <head>
+      <title>Test</title>
+      <link rel="stylesheet" href="kgv.css">
+      <script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
+      <script src="validate.js"></script>
+      <script src="intmodule.js"></script>
+      <script src="control.js"></script>
+    </head>
+    <body>
+      <h1> GGD en KGV</h1>
+      <div>
+      <label class="heading">Eerste getal</label>
+      <input id = "g1" class="input" type="number" name="g1" value="" min=0 max=9999999
+         placeholder="123" title="Onjuiste invoer. Onjuiste invoer. Geheel getal >= 0 " required>
+      <span class="feedback"></span>
+      </div>
+      <div>
+      <label class="heading">Tweede getal</label>
+      <input id = "g2" class="input" type="number" name="g2" value="" min=0 max=9999999
+         placeholder="123" title="Onjuiste invoer. Geheel getal >= 0 " required>
+      <span class="feedback"></span>
+      <p></p>
+      <button id = "kgv" type="button">Bereken kgv</button>
+      <button id ="ggd" type="button">Bereken ggd</button>
+      <p></p>
+      <div><span id="kgvres"></span></div>
+      <div><span id="ggdres"></span></div>
+</div>
+
+    </body>
+</html>

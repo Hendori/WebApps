@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bereken direct de premie voor uw autoverzekering</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="offerte.css">
+</head>
+<body>
+  <div class="page"> 
+    <h1 id="pagetitle">Bereken uw premie</h1>
+    <form method="get" action="server_URL">      
+      <fieldset>
+        <legend>Uw gegevens</legend>
+        <label>Postcode
+          <input class="input" type="text" name="postcode" value=""  placeholder="1234AB"  required /> 
+        </label>
+        <label>Geboortedatum
+          <input class="input" type="text" name="geboortedatum"  placeholder="jjjj-mm-dd"  required />  
+        </label>
+        <label>Schadevrije jaren
+          <input  class="input" type="number" name="schadevrijejaren" min="0" max="15" step="1" value="0" required />
+        </label>
+      </fieldset>
+      
+      <fieldset>
+        <legend>Uw auto</legend>  
+        <label>Kenteken
+          <input class="input" type="text" name="naam" required />
+        </label>
+        <label>
+          <input type="checkbox" name="kentekenBekend" />
+          Mijn kenteken is (nog) niet bekend
+        </label>
+        <label>Merk en type
+          <select class="input" name="merkEnType" >
+            <optgroup label="Volvo">
+              <option value="VolvoV40">V40</option>
+              <option value="VolvoV50">V50</option>
+              <option value="VolvoV70">V70</option>
+            </optgroup>	
+            <optgroup label="Volkswagen">
+              <option value="VolkswagenPolo">Polo</option>
+              <option value="VolkswagenGolf">Golf</option>
+            </optgroup>
+          </select> 
+        </label>
+        <label>Kleur
+          <input class="input" type="color" name="kleur" />
+        </label>
+      </fieldset>
+      
+      <fieldset>
+        <legend>Verzekering</legend>
+        <label>
+          <input type="radio" name="soortVerzekering" value="wa"  checked="checked" />
+          WA
+        </label>
+        <label>
+          <input type="radio" name="soortVerzekering" value="allRisk" />
+          All Risk
+        </label>
+        <label>Ingangsdatum
+          <input class="input" type="text" name="ingangsdatum" placeholder="jjjj-mm-dd" required />
+        </label>
+      </fieldset>
+      
+      <fieldset>
+        <legend>Bereken uw premie</legend>
+        <input class="text" type="submit" value="Bereken" />
+      </fieldset>
+    </form>
+  </div>     
+</body>
+</html>

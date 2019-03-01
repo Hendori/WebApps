@@ -1,0 +1,43 @@
+body {
+	background-color: #F0F4F0;
+	font-family: sans-serif;
+}
+.page {
+	width: 100%;
+	max-width: 40em;
+	min-width: 20em;
+	margin: 0 auto;
+	background-color: Ivory;
+}
+h1, h2 {
+  background-color: #151B8D;
+  color: white;
+  text-align: center;
+}
+h1 {
+  padding-top: 0.5em;
+  padding-bottom: 0.25em;
+}
+h2 {
+  width: 10em;
+}
+.vraagArea {
+	height: 10em;
+}
+.vraagArea div {
+  width: 20%;
+  float: left;
+  margin-right: 20px;
+}
+.tip {
+  background-color: #FFF8C6;
+  padding: 1em;
+}
+hr {
+  clear: both;
+  border-color: #151B8D;
+  background-color: #151B8D;
+}
+.feedback {
+	margin-left: 2em;
+}

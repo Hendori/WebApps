@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <title>Bereken direct de premie voor uw autoverzekering</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="offerte.css">
+</head>
+<body>
+  <h1>Bereken uw premie</h1>
+  <form method="get" action="serverURL">
+  	<fieldset>
+	    <legend>Uw gegevens</legend>
+	  <label>Postcode
+	    <input type="text" name="postcode" value=""  required /> 
+	  </label>
+	  <label>Geboortedatum
+ 	    <input type="date" name="geboortedatum"  required />  
+	  </label>
+	  <label>Schadevrije jaren
+	    <input type="number" name="schadevrijejaren" value="0" required />
+	  </label>
+	</fieldset>
+	
+	<fieldset>
+	  <legend>Uw auto</legend>  
+	  <label>Kenteken
+	    <input type="text" name="naam" required />
+	  </label>
+	  <label> 
+	    <input type="checkbox" name="kentekenBekend" />
+		  Mijn kenteken is (nog) niet bekend
+	  </label>
+	  <label>Merk en type
+      <select  name="merkEnType" required>
+        <option value=""> Selecteer een type</option>
+        <optgroup label="Volvo">
+          <option value="VolvoV40">V40</option>
+          <option value="VolvoV50">V50</option>
+          <option value="VolvoV70">V70</option>
+        </optgroup>	
+        <optgroup label="Volkswagen">
+          <option value="VolkswagenPolo">Polo</option>
+          <option value="VolkswagenGolf">Golf</option>
+        </optgroup>
+      </select> 
+	  </label>
+	  <label>Kleur
+	    <input class="input" type="color" name="kleur" />
+	  </label>
+	</fieldset>
+	
+	<fieldset>
+	  <legend>Verzekering</legend>
+    <label class="choice">
+      <input type="radio" name="soortVerzekering" value="wa"  checked />
+      WA
+    </label>
+    <label  class="choice">
+      <input type="radio" name="soortVerzekering" value="allRisk" />
+      All Risk
+    </label>
+    <label>Ingangsdatum
+	    <input class="input" type="date" name="ingangsdatum" required />
+	  </label>
+	</fieldset>
+	
+	<fieldset>
+	  <legend>Bereken uw premie</legend>
+	  <input type="submit" value="Bereken" />
+	</fieldset>
+  </form>     
+</body>
+</html>

@@ -1,0 +1,12 @@
+.feedback {
+  font-Style: italic;
+  font-weight: bold;
+}
+
+.valid {
+   background-color: green;
+}
+
+.invalid {   
+   background-color: red;
+}

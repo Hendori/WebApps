@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+	<title>HelloAjax</title>
+  <script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
+	<script src="js/hello.js"></script>
+</head>
+<body>
+	<h1>Ajax demo</h1>
+	<form id="helloform"  action="http://localhost:8080/HelloAjaxJQuery/HelloServlet" method="get">
+		<label>Naam:
+		  <input type="text" id="voornaam">
+    </label>
+		<input type="submit" value="Naar server" />
+	</form>
+	<div id="ajaxresponse">Hier komt de response</div>
+</body>
+</html>
+

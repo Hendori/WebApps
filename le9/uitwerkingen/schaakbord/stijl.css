@@ -1,0 +1,35 @@
+body {
+	background-color: LightGray;
+	font-family: sans-serif;
+}
+h1 {
+	color: Black;
+	text-align: center;
+}
+#chessboard {
+    width: 36em;
+    height: 36em;
+    margin: 5em auto;
+}
+.number, .square {
+  width: 4em;
+  height: 4em;
+  float: left;
+}
+.number {
+  text-align: center;
+}
+.row {
+  clear: both;
+}
+.black {
+  background-color: SaddleBrown;
+}
+.white {
+  background-color: NavajoWhite;
+}
+img {
+  display: block;
+  margin: auto;
+  position: relative;
+}

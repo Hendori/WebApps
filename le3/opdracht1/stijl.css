@@ -1,0 +1,90 @@
+body {
+    background-color: darkblue;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+header, footer, aside, article {
+    background-color: lightskyblue;
+    border-radius: 9px;
+}
+
+header {
+    grid-area: headerzone;
+}
+
+footer {
+    grid-area: footerzone;
+}
+
+aside {
+    grid-area: menuzone;
+}
+
+article {
+    grid-area: gamezone;
+    min-width: 600px;
+    min-height: 600px;
+}
+
+canvas {
+    padding: 0;
+    margin: auto;
+    display: block;
+    background-color: white;
+}
+
+section {
+    margin-left: 2em;
+}
+
+p, a, h1, h2{
+    font-family: FreeMono, monospace;
+    font-weight: bold;
+    color: darkblue;
+    margin-left: 1em;
+}
+
+a, h1, h2{
+    text-transform: uppercase;
+}
+aside a {
+    display:block;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+            'headerzone headerzone headerzone headerzone headerzone headerzone headerzone headerzone'
+            'menuzone gamezone gamezone gamezone gamezone gamezone gamezone gamezone'
+            'menuzone footerzone footerzone footerzone footerzone footerzone footerzone footerzone';
+    grid-gap: 10px;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+.page {
+	max-width: 78em;
+	margin: 1em auto;
+	overflow: auto;
+}
+
+.button {
+    background-color: lightblue;
+    margin: 1em 1em 1em 1em;
+    border: thin solid lightblue;
+    border-radius: 5px;
+    max-width: 13em;
+}
+
+.button:hover {
+    border: thin solid darkblue;
+}
+
+h1, h2, .centertext {
+    text-align: center;
+}

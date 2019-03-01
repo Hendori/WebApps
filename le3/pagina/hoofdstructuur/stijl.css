@@ -1,0 +1,85 @@
+/*** Reset ***/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    font-size:1em;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+	display:block;
+}
+
+/*** Generiek ***/
+body {
+	background: linear-gradient(to bottom, Ivory, #A20013);
+	font-family: Arial, Helvetica, sans-serif;
+	color: #333;
+}
+h1, h2, h3 {
+	font-variant: small-caps;
+	color: #E2001B;
+	margin: 0.5em 0;
+	box-shadow: 3px 3px 5px #888;
+}
+article {
+	float: left;
+	width: 100%;
+	min-width: 36em;
+	max-width: 46em;
+	padding: 1em;
+	margin-top: 3em;
+	border: thin solid #EF001D;
+	border-radius: 1em;
+	box-shadow: 3px 3px 5px #888;
+}
+footer {
+	clear: left;
+	padding: 1em 0;
+	font-size: small;
+	text-align: right;
+}
+
+/*** Hoofdstructuur ***/
+.page {
+	min-width: 38em;
+	max-width: 58em;
+	margin: 1em auto;
+	background-color: Ivory;
+	padding: 0 1em;
+	box-shadow: 3px 3px 5px #888;
+	overflow: auto;
+}
+.pagetitle {
+	padding: 0.25em;
+	text-align: center;
+	font-size: 4em;
+	border: thin solid #EF001D;
+	border-radius: 0.25em;
+}
+.sidebar {
+	float: left;
+	width: 8em;
+	padding: 1em 0 1em 1em;
+	margin-top: 3em;
+}
+
+

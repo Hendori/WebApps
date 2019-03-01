@@ -1,0 +1,34 @@
+body {
+    background-color: mediumpurple;
+}
+h1 {
+    text-align: center;
+    font-style: initial;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+header,aside {
+    border: thin solid greenyellow;
+    border-radius: 10px;
+    display: block;
+    box-shadow: 0.5em 0.5em 0.5em greenyellow;
+}
+aside {
+    float: left;
+    width: 15em;
+}
+article {
+    float: right;
+    width: 100%;
+    min-width: 34em;
+    max-width: 44em;
+    display: block;
+}
+.menu {
+}
+.page {
+	min-width: 50em;
+	max-width: 60em;
+	margin: 1em auto;
+	overflow: auto;
+}
