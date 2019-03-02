@@ -15,6 +15,3 @@ else {
     print("beide menu's zijn niet hetzelfde");
 }
 
-
-
-
