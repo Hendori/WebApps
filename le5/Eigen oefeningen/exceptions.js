@@ -22,8 +22,8 @@ function max(n, m) {
 }
 
 function ggd(n, m) {
-    var grootste = m;
-    var kleinste = n;
+    var grootste = n;
+    var kleinste = m;
     var result = 0;
     if (isNaN(n)) {
         throw new TypeError("Eerste argument is geen nummer");
@@ -33,6 +33,7 @@ function ggd(n, m) {
     }
     else {
         if (n === max(n, m)) {
+            print("switch grootste met kleinste");
             grootste = n;
             kleinste = m;
         }
@@ -48,4 +49,4 @@ function ggd(n, m) {
 }
 
 
-print(ggd(1001, 39));
+print(ggd(1001, 154));
