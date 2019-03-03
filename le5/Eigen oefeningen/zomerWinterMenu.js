@@ -4,3 +4,4 @@ var menu = [zomerMenu, winterMenu];
 
 print(menu[1]);
 print(winterMenu);
+

@@ -14,4 +14,6 @@ var rechthoek = {
 
 var oppervlakteRechthoek = rechthoek.zijde1 * rechthoek.zijde2;
 
-print("" +oppervlakteRechthoek);
+print("" + oppervlakteRechthoek);
+
+var breuk2 = breuk;
