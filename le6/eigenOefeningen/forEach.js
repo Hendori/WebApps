@@ -1,3 +1,4 @@
+//voorbeeld foreach met functie erin
 var xs = [1, 2, 3, 4, 5];
 
 function sum(numArray) {
