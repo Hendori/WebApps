@@ -12,3 +12,5 @@ function doeiets(kwaak, kil, c) {
     return "" + kwaak + " " + kil + " " + c + "\n";
 }
 print(xs.map(doeiets));
+
+
