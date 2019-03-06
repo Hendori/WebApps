@@ -18,3 +18,15 @@ function omtrek(l, b) {
 print("De oppervlakte is " + oppervlakte(LENGTH, WIDTH));
 print("De omtrek is " + omtrek(LENGTH, WIDTH));
 
+(function() {
+    const LENGTH = 5;
+    const WIDTH = 8;
+    print("in de intermediate function");
+    print("De oppervlakte is " + oppervlakte(LENGTH, WIDTH));
+    print("De omtrek is " + omtrek(LENGTH, WIDTH));
+}());
+
+(function (wie, wanneer) {
+    print("Ik ontmoet " + wie + " op " + wanneer);
+}) ("JAN", new Date());
+
