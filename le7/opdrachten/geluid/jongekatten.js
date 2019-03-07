@@ -9,10 +9,19 @@ function Cat(name, colour, size) {
 function makeCats(names) {
 	var result = [];
 	// in te vullen
+    names.forEach(function(name) {
+        result.push(new Cat(name, "black", 0.5));
+    });
 	return result;
 }
 
+Cat.prototype.makeSound = function() {
+    print("Miauw");
+}
+
 var cats = makeCats(catNames);
+
 cats.forEach(function(cat) {
-	console.log(cat.name + " is: " + cat.colour);
+	print(cat.name + " is: " + cat.colour);
+    cat.makeSound();
 });
